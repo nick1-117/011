@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>李冠樟｜個人作品集</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;scroll-behavior:smooth}
+body{font-family:"Microsoft JhengHei",sans-serif;background:#f7f5f0;color:#333;line-height:1.8}
+header{background:#292929;color:#fff;text-align:center;padding:24px 15px}
+nav{position:sticky;top:0;z-index:10;background:#444;padding:14px;text-align:center}
+nav a{color:#fff;text-decoration:none;margin:0 13px;font-size:15px}
+nav a:hover{color:#d8b88c}
+section{padding:65px 20px;text-align:center;scroll-margin-top:60px}
+h2{font-size:30px;color:#725c45;margin-bottom:20px}
+.home{background:#e9e3d9;padding:100px 20px}
+.home h1{font-size:40px;margin-bottom:12px}
+.content{max-width:850px;margin:auto;background:#fff;padding:32px;border-radius:14px;box-shadow:0 4px 18px #0000000d}
+.profile{display:flex;align-items:center;gap:30px;text-align:left}
+.profile-photo{width:220px;height:260px;object-fit:cover;border-radius:12px;background:#eee}
+.profile p{margin:7px 0}
+.artwork{width:220px;max-width:100%;max-height:360px;object-fit:contain;border-radius:10px;margin:10px auto 18px;display:block}
+#hobby{background:#eeece6}
+footer{background:#292929;color:#fff;text-align:center;padding:25px}
+footer p{color:#bbb;font-size:14px}
+@media(max-width:650px){
+ nav a{display:inline-block;margin:5px 8px;font-size:13px}
+ .home h1{font-size:30px}
+ .profile{flex-direction:column;text-align:center}
+ .profile-photo{width:190px;height:230px}
+ section{padding:50px 16px}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>李冠樟的個人作品集</h1>
+  <p>PERSONAL PORTFOLIO</p>
+</header>
+
+<nav>
+  <a href="#home">首頁</a>
+  <a href="#about">個人介紹</a>
+  <a href="#hobby">興趣愛好</a>
+  <a href="#movie">喜歡的電影</a>
+  <a href="#music">喜歡的音樂</a>
+</nav>
+
+<section class="home" id="home">
+  <h1>你好，我是李冠樟！</h1>
+  <p>歡迎來到我的個人作品集網站</p>
+  <p>在這裡分享我的興趣，以及喜歡的電影和音樂。</p>
+</section>
+
+<section id="about">
+  <div class="content profile">
+    <!-- 這裡先放個人介紹示意圖；可換成自己的照片 -->
+    <div class="profile-photo" style="display:grid;place-items:center;color:#8b806f;font-size:18px;text-align:center;padding:15px;">
+      請放入自己的<br>個人照片
+    </div>
+    <div>
+      <h2>自我介紹</h2>
+      <p><strong>姓名：</strong>李冠樟</p>
+      <p><strong>興趣：</strong>打羽球、到外面走走晃晃</p>
+      <p><strong>喜歡的電影：</strong>《有病才喜歡妳》</p>
+      <p><strong>喜歡的歌曲：</strong>《太聰明》－陳綺貞</p>
+      <p>我喜歡打羽球，也喜歡到外面走走、看看風景，享受生活中的簡單樂趣。</p>
+    </div>
+  </div>
+</section>
+
+<section id="hobby">
+  <div class="content">
+    <h2>我的興趣愛好</h2>
+    <p>🏸 <strong>打羽球</strong></p>
+    <p>享受運動和打球的樂趣。</p>
+    <br>
+    <p>🚶 <strong>出去走走、晃晃</strong></p>
+    <p>喜歡到外面散步、看看不同的風景，放鬆心情。</p>
+  </div>
+</section>
+
+<section id="movie">
+  <div class="content">
+    <h2>我喜歡的電影</h2>
+    <img class="artwork" src="movie.jpg.jfif" alt="電影《有病才喜歡妳》海報">
+    <h3>《有病才喜歡妳》</h3>
+  </div>
+</section>
+
+<section id="music">
+  <div class="content">
+    <h2>我喜歡的音樂</h2>
+    <img class="artwork" src="music.jpg.jfif" alt="陳綺貞《太聰明》專輯圖片">
+    <h3>《太聰明》</h3>
+    <p>演唱者：陳綺貞</p>
+    <p>收錄專輯：《讓我想一想》</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 李冠樟 個人作品集</p>
+  <p>謝謝你的瀏覽！</p>
+</footer>
+</body>
+</html>
